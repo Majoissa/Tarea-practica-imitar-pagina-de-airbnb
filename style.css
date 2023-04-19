@@ -1,8 +1,188 @@
-/**
- * Add your custom styles below
- * 
- * Remember: 
- * - Be organised, use comments and separate your styles into meaningful chunks
- *    for example: General styles, Navigation styles, Hero styles, Footer etc.
- * 
- */
+/*Style del body*/
+body{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Dongle', sans-serif;
+}
+
+/*Header*/
+.logo{
+    position: absolute;
+    margin-left: 4.5vw;
+    cursor: pointer;
+}
+.nav1 {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 0.3vw;
+    margin: auto;
+    max-width: 30vw;
+    border-radius: 1.5vw;
+    box-shadow: 0vw 0vw 0.25vw 0vw grey;
+    font-size: 1.6vw;
+    padding-left: 0.8vw;
+    margin-top: 1.5vw;
+  }
+
+  .nav1:hover{
+    box-shadow: 0vw 0vw 0.6vw 0vw grey;
+    cursor:pointer;
+}
+
+ .nav1 img{
+    padding: 0.15vw;
+    margin-left: 0.25vw;
+ }
+  
+  .buscar {
+    display: flex;
+    align-items: center; 
+    gap: 1px; 
+  }
+
+  .buscar span{
+    color: grey;
+  }
+  
+  .opciones{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    float: right;
+    max-width: 24vw;
+    font-size: 1.6vw;
+    padding-left: 0.9vw;
+    margin-top: -3.21vw;
+    margin-right: 3.21vw;
+  }
+
+  .opcion{
+    display: flex;
+    align-items: center; 
+    margin-right: 1.5vw;
+    padding: 0.3vw;
+  }
+
+  .opcion:hover{
+    border-radius: 3.6vw;
+    background-color: #DFDFDF;
+    cursor:pointer;
+    opacity: 0.5;
+    
+  }
+  #navicon{
+    border: #DFDFDF solid 1px;
+    border-radius: 1.5vw;
+    padding: 0.21vw;
+  }
+  #navicon:hover{
+    background-color: white;
+    box-shadow: 0vw 0vw 0.15vw 0vw #DFDFDF;
+    cursor:pointer;
+  }
+
+ .contenedor{
+    border-bottom: #DFDFDF solid 1px;
+    padding-bottom: 1.07vw;
+    max-width: 100%;
+    margin: auto;
+    margin-bottom: 2.14vw;
+  }
+
+  .nav2 {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    flex-wrap: nowrap;
+    max-width: 90%;
+  }
+  
+  .ubicacion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.28vw;
+    opacity: 0.6;
+    font-weight: bold;
+    border-bottom: transparent solid 0.15vw;
+  }
+  
+  .ubicacion:hover {
+    border-bottom: #C8C3C3 solid 0.15vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.28vw;
+    opacity: 1;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .ubicacion img {
+    width: 1.8vw;
+  }
+  
+  .ubicacion span {
+    margin-top: 0.25vw;
+  }
+  
+  .flecha img{
+    width: 1.8vw;
+    margin-top: 0.7vw;
+  }
+  .flecha img:hover{
+    box-shadow: 0vw 0vw 0.25vw 0vw grey;
+    border-radius: 3.6vw;
+    cursor: pointer;
+  }
+
+  .filtro img{
+    width: 3.4vw;
+    border-radius: 0.7vw;
+    border: #DFDFDF solid 1px;
+    padding: 1.07vw;
+
+  }
+
+  .filtro img:hover{
+    cursor: pointer;
+  }
+
+  /*Main*/
+  .contenedor-casas{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-left: 5vw;
+  margin-top: 1.5vw;
+  margin-right: 1.5vw;
+  }
+
+  .casa img{
+  width: 20vw;
+  height: 20vw;
+  object-fit: cover;
+  border-radius: 0.7vw;
+  }
+
+  .casa h3{
+    font-size: 1.7vw;
+    margin-top: -0.57vw;
+    font-weight: 500;
+  }
+
+  .casa p{
+    font-size: 1.7vw;
+    color: #8A8A8A ;
+    font-weight: 200;
+    line-height: 1.5vw;
+    margin-top: -1.8vw;
+  }
+
+  .casa span{
+    color: #000000 ;
+    font-weight: 700;
+  }
+
+  .casa:hover{
+    cursor: pointer;
+  }
