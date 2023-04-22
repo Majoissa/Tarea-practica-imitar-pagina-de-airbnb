@@ -20,11 +20,23 @@ body{
     max-width: 30vw;
     border-radius: 1.5vw;
     box-shadow: 0vw 0vw 0.25vw 0vw grey;
-    font-size: 1.6vw;
     padding-left: 0.8vw;
     margin-top: 1.5vw;
   }
 
+  .nav1 button{
+    border: none;
+    background-color: transparent;
+    font-family: 'Dongle', sans-serif;
+    font-size: 1.6vw;
+  }
+
+  .bordes{
+    flex: 0 0 1px;
+    height: 24px;
+    width: 1px;
+    background-color:#dddddd;
+  }
   .nav1:hover{
     box-shadow: 0vw 0vw 0.6vw 0vw grey;
     cursor:pointer;
